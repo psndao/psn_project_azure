@@ -1,0 +1,9 @@
+{
+	"name": "fspsn",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "32795f67-dce3-4135-8f47-8f2b79b450ed",
+		"tenantId": "0920fdaa-c734-4b12-bf88-b564f70ac177"
+	}
+}
