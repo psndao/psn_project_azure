@@ -1,0 +1,47 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "time",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "low",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "high",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "open",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "close",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "volume",
+				"type": "float",
+				"precision": 15
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "btc_prices"
+		}
+	}
+}

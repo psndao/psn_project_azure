@@ -24,8 +24,8 @@
 			"columnDelimiter": ",",
 			"rowDelimiter": "\n",
 			"escapeChar": "\\",
-			"firstRowAsHeader": false,
-			"quoteChar": null
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
 		},
 		"schema": [
 			{
